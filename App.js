@@ -19,6 +19,7 @@ function ProductItem({ name, price }) {
 }
 
 export default function App() {
+  const brokenSyntax = ;
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Expo Product Explorer</Text>
